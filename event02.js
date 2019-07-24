@@ -22,7 +22,7 @@ console.log('listener1 监听器事件不再受监听');
 
 eventEmitter.emit('connection');
 
-eventListeners = eventEmitter.listenerCount('connection');
+eventListeners = eventEmitter.listenerCount('connection');	
 console.log('目前有' + eventListeners + '个监听器事件连接');
 
 console.log('程序执行完毕')
