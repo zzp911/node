@@ -1,5 +1,6 @@
 const http = require('http');
 const url = require('url');
+// 寻找一个字符串某个字符第n次出现的位置
 const find = function(str, cha, num){
     let x = str.indexOf(cha);
     for(let i = 1; i < num; i++){

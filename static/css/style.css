@@ -1,0 +1,32 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+.wrapper{
+	width: 100%;
+	text-align: center;
+}
+h1{
+	width: 100%;
+	height: 30px;
+	font-size: 20px;
+	line-height: 30px;
+	background: #bfd250;
+}
+.wrapper .content{
+	width: 100%;
+	height: 200px;
+	display: flex;
+}
+.content div{
+	flex: 1;
+}
+.content .l{
+	background: #cc458a
+}
+.content .c{
+	background: #298194
+}
+.content .r{
+	background: #903ba7
+}
